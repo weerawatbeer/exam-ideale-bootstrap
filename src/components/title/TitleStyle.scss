@@ -1,0 +1,17 @@
+$smile-icon: url("../../assets/images/smile-icon.png");
+$primary-color: #127ac7;
+.app-title {
+  font-size: 30px;
+  color: $primary-color;
+  position: relative;
+  &:before {
+    background-image: $smile-icon;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 25px;
+    bottom: -20px;
+    margin-left: 1px;
+  }
+}

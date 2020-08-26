@@ -1,0 +1,54 @@
+$primary-color: #127ac7;
+$secondary-color: #f37021;
+$third-color: #606060;
+
+.section-six-main {
+  background-color: white;
+  margin-top: -2rem;
+  border-top: 1px solid #dddddd;
+
+  .home-footer-top {
+    margin-top: 1rem;
+    width: 100%;
+
+    .home-footer-top-social {
+      img {
+        margin-right: 2rem;
+        height: 30px;
+        width: 30px;
+      }
+    }
+    .home-footer-call {
+      color: $secondary-color;
+      line-height: 8px;
+    }
+
+    .home-footer-call-number {
+      color: $primary-color;
+    }
+  }
+
+  .home-footer-middle-company {
+    color: $secondary-color;
+  }
+
+  .home-footer-middle-address {
+    color: $third-color;
+  }
+
+  ul {
+    list-style-type: none;
+    color: #606060;
+    margin-bottom: 0px;
+    padding-left: 1rem;
+  }
+
+  .footer {
+    background-color: $secondary-color;
+    color: white;
+    width: 100%;
+    span {
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.home-find-type-box {
+  background-color: white;
+  min-height: 342px;
+
+  .home-find-type-wrapper {
+    margin-top: 2rem;
+  }
+
+  .home-find-type-bottom {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 1224px) {
+  .home-find-type-box {
+    height: 100%;
+    margin-bottom: 2rem;
+    .home-find-type-bottom {
+      margin-top: 1rem;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+}

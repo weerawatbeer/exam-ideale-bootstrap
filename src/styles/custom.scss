@@ -1,0 +1,7 @@
+// Override default variables before the import
+@import "./variables.scss";
+$body-bg: #fafafa;
+$font-family-sans-serif: "Kanit";
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,26 @@
+.home-insurance-main {
+  background-color: #f3f3f3;
+  border-radius: 25px 25px 0 0;
+  margin-top: -2rem;
+  min-height: 317px;
+
+  .home-insurance-wrapper {
+    margin-top: 2rem;
+  }
+
+  .home-insurance-bottom {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home-insurance-main {
+    height: 100%;
+    margin-bottom: 2rem;
+  }
+  .home-insurance-bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

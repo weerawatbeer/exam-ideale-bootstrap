@@ -1,0 +1,96 @@
+$primary-color: #127ac7;
+$secondary-color: #f37021;
+$third-color: #606060;
+
+.home-review-main {
+  background-color: #f5f5f5;
+  min-height: 391px;
+  border-radius: 25px 25px 0 0;
+  margin-top: -2rem;
+  .home-review-wrapper {
+    margin-top: 2rem;
+    .home-review-slider {
+      width: 100%;
+      .home-review-ol {
+        bottom: -60px;
+      }
+      .home-review-li-active {
+        background-color: $primary-color;
+        height: 12px;
+        width: 47px;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 8px;
+      }
+      .home-review-li {
+        background-color: #dddddd;
+
+        height: 12px;
+        width: 12px;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .home-review-top {
+    width: 100%;
+    margin-top: 2rem;
+    border-bottom: 2px solid #dddddd;
+
+    .home-review-top-box {
+      width: 100%;
+      margin-bottom: -3px;
+    }
+
+    .section-three-text-review {
+      border-bottom: 4px solid $secondary-color;
+      span {
+        color: $secondary-color;
+      }
+    }
+
+    .section-three-text-viewreview {
+      span {
+        margin-right: 0.5rem;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .home-review-middle {
+    width: 100%;
+    margin-top: 1rem;
+
+    .home-review-middle-comment {
+      margin-left: 10rem;
+      span {
+        color: $primary-color;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .home-review-bottom {
+    width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dddddd;
+    span {
+      margin: 0px 5px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .home-review-main {
+    height: 100%;
+    margin-bottom: 6rem;
+  }
+
+  .home-review-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

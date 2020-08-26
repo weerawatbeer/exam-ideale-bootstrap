@@ -1,0 +1,22 @@
+.card-two-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  height: 100%;
+  margin: 0px 40px 0px 40px;
+  padding: 15px;
+  border: none;
+  box-shadow: none;
+
+  h6 {
+    font-size: 18px;
+    color: #127ac7;
+  }
+
+  span {
+    font-size: 1rem;
+    color: #515c6f;
+  }
+}
